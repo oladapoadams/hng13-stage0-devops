@@ -1,0 +1,15 @@
+[2025-10-21 16:48:09] INFO: === Deploy script started ===
+Git repository URL (HTTPS or SSH): Personal Access Token (PAT) (leave blank to use SSH auth): 
+Branch name (default: main): Remote server SSH username (e.g., ubuntu): Remote server IP or hostname: SSH private key path (full path). Use /c/... for Git Bash on Windows: Application internal container port (e.g., 80 or 3000): [2025-10-21 16:48:44] INFO: Using SSH key: /c/Users/HP OMEN/Downloads/HNG-2.pem
+[2025-10-21 16:48:44] INFO: Input summary:
+  REPO_URL: https://github.com/oladapoadams/hng13-stage0-devops
+  BRANCH: main
+  SSH_USER: ubuntu
+  SERVER_IP: 16.171.14.14
+  SSH_KEY: /c/Users/HP OMEN/Downloads/HNG-2.pem
+  APP_PORT: 3000
+  PAT: (none)
+
+[2025-10-21 16:48:44] INFO: Cloning repository 'hng13-stage0-devops'...
+Cloning into 'hng13-stage0-devops'...
+[2025-10-21 16:48:46] ERROR: No Dockerfile or docker-compose.yml found in repo root.
